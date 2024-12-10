@@ -5,3 +5,4 @@ type Product struct {
 	NameProduct string `gorm:"type:varchar(300)" json:"name_product"`
 	Description string `gorm:"type:text" json:"description"`
 }
+
